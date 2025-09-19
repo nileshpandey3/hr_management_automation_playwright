@@ -16,7 +16,7 @@ def hrm_page(browser):
     page.get_by_role("textbox", name="Username").fill("Admin")
     page.get_by_role("textbox", name="Password").fill("admin123")
     page.get_by_role("button", name="Login").click()
-    page.context.storage_state(path="state.json")
+    page.context.storage_state(path="playwright/.auth/state.json")
     page.get_by_role("heading", name="Dashboard").wait_for(state="visible", timeout=10000)
     yield page
     page.close
