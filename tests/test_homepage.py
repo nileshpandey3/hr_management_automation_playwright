@@ -1,6 +1,6 @@
 import pytest
 import re
-from playwright.sync_api import sync_playwright, Page
+from playwright.sync_api import Page
 from playwright.sync_api import  expect
 from setup import HOMEPAGE, BASE_URL
 
