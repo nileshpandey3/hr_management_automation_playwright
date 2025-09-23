@@ -1,3 +1,5 @@
-BASE_URL = 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
-HOMEPAGE = 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers'
+URL = 'https://opensource-demo.orangehrmlive.com/web/index.php'
+BASE_URL = URL+'/auth/login'
+HOMEPAGE = URL+'/admin/viewSystemUsers'
+LEAVE = URL+'/leave/viewLeaveList'
 
